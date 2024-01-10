@@ -6,6 +6,8 @@ export const Title = styled.h2`
 
   @media ${device.mobile} {
     display: block;
+    font-family: 'PT Sans Bold';
+    font-weight: 700;
     font-size: 16px;
     color: #42567a;
     margin: 0 20px 20px;
