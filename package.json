@@ -1,0 +1,54 @@
+{
+  "name": "famous-dates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env mode=development",
+    "build": "webpack --env mode=production",
+    "prettier": "prettier  --write src/**/*.tsx src/**/*.ts",
+    "lint": "eslint \"src/**/*.ts{,x}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolskii/famous-dates.git"
+  },
+  "author": "Denis Nikolskii",
+  "license": "ISC",
+  "homepage": "https://github.com/Nikolskii/famous-dates#readme",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "6.1.4",
+    "swiper": "11.0.5",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "@types/uuid": "9.0.7",
+    "@types/webpack": "5.28.5",
+    "@types/webpack-dev-server": "4.7.2",
+    "@typescript-eslint/eslint-plugin": "6.16.0",
+    "@typescript-eslint/parser": "6.16.0",
+    "copy-webpack-plugin": "11.0.0",
+    "css-loader": "6.8.1",
+    "eslint": "8.56.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "html-webpack-plugin": "5.6.0",
+    "mini-css-extract-plugin": "2.7.6",
+    "prettier": "3.1.1",
+    "sass": "1.69.5",
+    "sass-loader": "13.3.3",
+    "style-loader": "3.3.3",
+    "styled-normalize": "8.1.0",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3",
+    "webpack": "5.89.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  }
+}
