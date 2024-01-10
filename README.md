@@ -1,4 +1,4 @@
-![image](https://github.com/Nikolskii/famous-dates/assets/15583900/49f45b4c-db9b-425f-a0d0-2f6cf55d5e66)# famous-dates
+# famous-dates
 Анимационное react-приложение временных отрезков, в каждом из которых существует несколько событий. 
 
 ### [https://dates.dnikolskii.ru/](https://dates.dnikolskii.ru)
