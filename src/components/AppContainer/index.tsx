@@ -3,8 +3,11 @@ import { device } from '@/components/GlobalStyle/breakpoints';
 
 export const AppContainer = styled.div`
   border: 1px solid #e3e6ed;
-  height: 100vh;
   position: relative;
+
+  @media ${device.mobile} {
+    border: none;
+  }
 
   &:before {
     content: '';
