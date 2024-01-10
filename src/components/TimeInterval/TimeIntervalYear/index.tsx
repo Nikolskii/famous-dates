@@ -5,7 +5,7 @@ interface Props {
   $accent?: boolean;
 }
 
-export const TimeIntervalYear = styled.h4.attrs<Props>((props) => ({
+export const TimeIntervalYear = styled.h3.attrs<Props>((props) => ({
   $accent: props.$accent,
 }))`
   font-family: 'PT Sans Bold';

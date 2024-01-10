@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { device } from '@/components/GlobalStyle/breakpoints';
 
-export const Title = styled.h3`
+export const Title = styled.h2`
   display: none;
 
   @media ${device.mobile} {
