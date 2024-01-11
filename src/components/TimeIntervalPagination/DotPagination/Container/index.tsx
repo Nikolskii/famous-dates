@@ -6,6 +6,10 @@ export const Container = styled.div`
 
   @media ${device.mobile} {
     display: flex;
-    column-gap: 10px;
+    column-gap: 15px;
+    position: absolute;
+    bottom: -300px;
+    left: 50%;
+    transform: translate(-50%);
   }
 `;

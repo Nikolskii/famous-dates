@@ -6,6 +6,7 @@ import { AppContainer } from '@/components/AppContainer';
 import { TimeInterval } from '@/components/TimeInterval';
 import { CircleNav } from '@/components/CircleNav';
 import { Main } from '@/components/Main';
+import { DotPagination } from '@/components/TimeIntervalPagination/DotPagination';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <CircleNav />
           <TimeInterval />
           <TimeIntervalPagination />
+          <DotPagination />
         </Main>
         <DatesSlider />
       </AppContainer>
