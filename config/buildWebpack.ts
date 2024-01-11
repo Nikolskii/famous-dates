@@ -24,5 +24,8 @@ export function buildWebpack(options: BuildOptions): webpack.Configuration {
     resolve: buildResolves(options),
     devtool: isDev ? 'inline-source-map' : 'source-map',
     devServer: isDev ? buildDevServer(options) : undefined,
+    watchOptions: {
+      poll: true,
+    },
   };
 }
