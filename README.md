@@ -9,6 +9,7 @@
 - Styled-components
 - Swiper
 - Webpack
+- Docker
 - Nginx
 
 ### Инструкции
