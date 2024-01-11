@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --env mode=development",
+    "devDocker": "docker-compose up",
+    "stopDocker": "docker-compose down",
     "build": "webpack --env mode=production",
     "prettier": "prettier  --write src/**/*.tsx src/**/*.ts",
     "lint": "eslint \"src/**/*.ts{,x}\""
