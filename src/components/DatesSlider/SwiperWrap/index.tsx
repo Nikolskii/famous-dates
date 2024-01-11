@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { device } from '@/components/GlobalStyle/breakpoints';
 
 export const SwiperWrap = styled.div`
-  padding-bottom: 100px;
-    
+  min-height: 250px;
+
   .swiper {
     padding: 0 80px;
 

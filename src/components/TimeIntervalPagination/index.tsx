@@ -3,8 +3,6 @@ import { ButtonContainer } from '@/components/TimeIntervalPagination/ButtonConta
 import { Stage } from '@/components/TimeIntervalPagination/Stage';
 import { ChangeStageButton } from '@/components/TimeIntervalPagination/ChangeStageButton';
 import { FamousDatesContext } from '@/context/FamousDatesContext';
-import { DotPagination } from '@/components/TimeIntervalPagination/DotPagination';
-import { Wrapper } from '@/components/TimeIntervalPagination/Wrapper';
 import { Container } from '@/components/TimeIntervalPagination/Container';
 
 export const TimeIntervalPagination = () => {
@@ -26,8 +24,7 @@ export const TimeIntervalPagination = () => {
   const stage = `0${activeStage}/0${famousDates.length}`;
 
   return (
-    <Container>
-      <Wrapper>
+      <Container>
         <Stage>{stage}</Stage>
         <ButtonContainer>
           <ChangeStageButton
@@ -41,8 +38,6 @@ export const TimeIntervalPagination = () => {
             direction="next"
           />
         </ButtonContainer>
-      </Wrapper>
-      <DotPagination />
-    </Container>
+      </Container>
   );
 };

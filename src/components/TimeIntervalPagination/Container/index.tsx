@@ -3,8 +3,9 @@ import { device } from '@/components/GlobalStyle/breakpoints';
 
 export const Container = styled.section`
   display: flex;
-  align-items: center;
-  column-gap: 39px;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 120px;
   position: absolute;
   bottom: 55px;
   left: 80px;
@@ -20,5 +21,6 @@ export const Container = styled.section`
   @media ${device.mobile} {
     bottom: -320px;
     left: 20px;
+    row-gap: 11px;
   }
 `;
